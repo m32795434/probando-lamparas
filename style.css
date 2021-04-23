@@ -1,0 +1,35 @@
+:root{
+    --azul:#727272;
+    --naranja:#f90;
+    --negro:#000;
+    --blanco:#FFF;
+
+
+}
+*{padding: 0;
+margin: o;
+box-sizing: border-box;}
+
+body{background-color: var(--azul);
+background-image: url(images/pattern.jpg);
+font-family: Arial, Helvetica, sans-serif;}
+
+.cabecera,.contenedor{
+    max-width: 1000px;
+    margin: auto;
+}
+.contenedor{
+    background-color: var(--blanco);
+}
+.cabecera{
+    display: flex;
+    justify-content: space-between;
+    color: var(--naranja);
+    align-items: center;
+    padding: 5px 0;
+
+}
+
+/* h1{background-color: var(--blanco);
+color: var(--azul);} */
+

@@ -4,17 +4,44 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>5 alas</title>
-    <link rel="stylesheet" href="style.css">
+    <title>5alas</title>
+    <link rel="stylesheet" href="estilos.css">
 </head>
 <body>
     <div class="cabecera">
         <a href="index.html">
-        <img src="images/logo_3alas.png" alt="logo">ir al inicio</a>
-        <h1>the energy factory</h1>
-    </div>
+            <img src="images/logo_3alas.png" alt="Ir al inicio">
+        </a>
+        <h1>The energy factory</h1>
+    </div><!-- Cierra .cabecera -->
     <div class="contenedor">
-        aca va la magia
+        <nav class="nav">
+            <ul class="nav-lista">
+                <li class="nav-lista_item">
+                    <a href="#" class="nav-lista_item-link">Empresa</a>
+                </li>
+                <li class="nav-lista_item">
+                    <a href="#" class="nav-lista_item-link">Servicios</a>
+                </li>
+                <li class="nav-lista_item">
+                    <a href="#" class="nav-lista_item-link">Productos</a>
+                </li>
+                <li class="nav-lista_item">
+                    <a href="#" class="nav-lista_item-link">Clientes</a>
+                </li>
+                <li class="nav-lista_item">
+                    <a href="#" class="nav-lista_item-link">Garantía</a>
+                </li>
+                <li class="nav-lista_item">
+                    <a href="#" class="nav-lista_item-link">Contacto</a>
+                </li>
+            </ul>
+            <form action="buscar.js" class="nav-form">
+                <input class="nav-form_input" type="search" placeholder="Buscar en el sitio...">
+                <input class="nav-form_boton" type="submit" value="Buscar">
+            </form>
+        </nav>
     </div>
+
 </body>
 </html>

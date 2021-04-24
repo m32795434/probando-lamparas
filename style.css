@@ -15,6 +15,7 @@
     --amarillo: #f8c009;
     --negro: #000;
     --blanco: #FFF;
+    --espacio:20px;
 }
 
 * {
@@ -77,6 +78,7 @@ h1 {
     padding-left: 45px;
     display: flex;
     border-radius: 10px 10px 0 0;
+    margin-bottom: 20px;
 }
 
 .nav-lista,
@@ -104,4 +106,30 @@ h1 {
 .nav-form {
     display: flex;
     justify-content: flex-end;
+}
+/* ----------slider de images--------- */
+.slider{
+    text-align: center;
+    margin-bottom: 20px;
+}
+/* -------------principal-------------------- */
+.principal{
+    background-color: mediumorchid;
+    display: grid;
+    grid-template-columns: 250px 1fr;
+    padding: 0 var(--espaccio);
+    margin-bottom: 50px;
+    
+}
+.principal-categorias{
+background-color: salmon;
+}
+.principal-productos{
+background-color: skyblue;
+display: grid;
+grid-template-columns: repeat(2, 1fr);
+gap:var(--espacio)
+}
+.producto{
+    background-color: steelblue;
 }

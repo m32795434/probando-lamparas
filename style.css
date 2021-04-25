@@ -162,6 +162,7 @@ max-width: 90%;
     grid-template: auto;
     /* gap:var(--espacio); */
     align-items: start;
+    row-gap: 10px;
 }
 .prodcuto1-titulo{
     font-size: 17px;

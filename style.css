@@ -159,10 +159,10 @@ max-width: 90%;
 .producto{
     background-color:var(--blanco);
     display: grid;
-    grid-template: auto;
+    grid-template: 15% 85%/45% 55%;
     /* gap:var(--espacio); */
     align-items: start;
-    row-gap: 10px;
+    row-gap: 5px;
 }
 .prodcuto1-titulo{
     font-size: 17px;

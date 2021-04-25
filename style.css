@@ -123,7 +123,16 @@ h1 {
 }
 .principal-categorias{
 background-color: salmon;
+display: flex;
+flex-direction: column;
+margin-left: var(--espacio);
 }
+.categorias-lista{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+}
+
 .principal-productos{
 background-color: skyblue;
 display: grid;
